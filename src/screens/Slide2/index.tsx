@@ -13,6 +13,7 @@ export function Slide2({ setPageI }: IPagina) {
              <View style={styles.main}>
                     <Image source={logo} ></Image>
                     <Text style={styles.text}>Panda</Text>
+                    <Text style={styles.textentrar}> Cadastrar</Text>
              </View>
              <View style={styles.botao}>
                 <View style={styles.buttonSpace}>

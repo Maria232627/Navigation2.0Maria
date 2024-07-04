@@ -13,6 +13,10 @@ export const styles = StyleSheet.create({
         fontFamily: 'JacquesFrancoisShadow_400Regular',
         color: '#000'
     },
+    textentrar:{
+        fontSize:20,
+        color:'#000'
+    },
     botao: {
         justifyContent: 'center',
         alignItems:'flex-end',
