@@ -5,7 +5,8 @@ export const colors = {
     white: "#fff",
     green:"#4C723F",
     gray:"#9B9797",
-    ligthgreen: "#C8FFCA"    
+    ligthgreen: "#C8FFCA",
+    offwhite: "#D9D9D9"    
 }
 export const styleContainer = StyleSheet.create({
     container: {
