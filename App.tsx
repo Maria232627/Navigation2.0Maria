@@ -2,6 +2,8 @@ import { Slide1 } from "./src/screens/Slide1";
 import { Slide2 } from "./src/screens/Slide2";
 import { useFonts, JacquesFrancoisShadow_400Regular } from '@expo-google-fonts/jacques-francois-shadow';
 import { Dispatch, SetStateAction, useState } from 'react'
+import { StatusBar } from "expo-status-bar";
+import {Navigation} from './src/navigation'
 
 export interface IPagina {
   setPageI: Dispatch<SetStateAction<number>>
@@ -20,5 +22,12 @@ export default function App() {
     return <Slide1 setPageI={setPage} />
   } else if (page == 2) {
     return <Slide2 setPageI={setPage} />
+  }else{
+    return (
+      <>
+        <Navigation />
+      <StatusBar style="auto" />
+      </>
+    )
   }
 }

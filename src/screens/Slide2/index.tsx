@@ -13,8 +13,12 @@ export function Slide2({ setPageI }: IPagina) {
              <View style={styles.main}>
                     <Image source={logo} ></Image>
                     <Text style={styles.text}>Panda</Text>
-                    <Text style={styles.textentrar}> Cadastrar</Text>
              </View>
+             <View style={styles.cont}>
+                    <ButtonSlide onPressI={() => setPageI(5)} cor={true}>
+                        <Text style={styles.botaoregis}>Registre-se</Text>
+                    </ButtonSlide>
+                </View>
              <View style={styles.botao}>
                 <View style={styles.buttonSpace}>
                     <ButtonSlide onPressI={() => setPageI(1)} cor={false} />

@@ -26,6 +26,13 @@ export const styles = StyleSheet.create({
     },
     buttonSpace: {
         paddingHorizontal: 15,
+    },
+    botaoregis: {
+        color: colors.white,
+        fontSize: 25
+    },
+    cont: {
+        marginBottom: -30,
+        paddingBottom: -20
     }
-    
 })
