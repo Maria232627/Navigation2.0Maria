@@ -15,7 +15,7 @@ export function Slide2({ setPageI }: IPagina) {
                     <Text style={styles.text}>Panda</Text>
              </View>
              <View style={styles.cont}>
-                    <ButtonSlide onPressI={() => setPageI(5)} cor={true}>
+                    <ButtonSlide onPressI={() => setPageI(3)} cor={false}>
                         <Text style={styles.botaoregis}>Registre-se</Text>
                     </ButtonSlide>
                 </View>

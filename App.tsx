@@ -3,7 +3,9 @@ import { Slide2 } from "./src/screens/Slide2";
 import { useFonts, JacquesFrancoisShadow_400Regular } from '@expo-google-fonts/jacques-francois-shadow';
 import { Dispatch, SetStateAction, useState } from 'react'
 import { StatusBar } from "expo-status-bar";
-import {Navigation} from './src/navigation'
+import { LoginNavigation } from "./src/navigation/login.navigation";
+import { AuthProvider } from './src/context/auth';
+import { Login } from "./src/screens/Login";
 
 export interface IPagina {
   setPageI: Dispatch<SetStateAction<number>>
@@ -25,8 +27,10 @@ export default function App() {
   }else{
     return (
       <>
-        <Navigation />
-      <StatusBar style="auto" />
+      <AuthProvider>
+      <LoginNavigation />
+      </AuthProvider>
+      <StatusBar style="auto"/>
       </>
     )
   }

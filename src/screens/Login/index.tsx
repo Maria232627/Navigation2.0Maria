@@ -4,7 +4,7 @@ import {MaterialIcons, Entypo} from "@expo/vector-icons";
 import {styles} from './style';
 import { colors, styleContainer } from "../../styles/globalstyle";
 import {ButtonInterface} from '../../components/ButtonInterface';
-import {LoginTypes} from '../../navigation/login.navigation';
+import { LoginTypes } from '../../navigation/login.navigation';
 import {useAuth} from '../../hook/auth';
 import {AxiosError} from 'axios';
 

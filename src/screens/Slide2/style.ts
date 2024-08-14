@@ -32,6 +32,7 @@ export const styles = StyleSheet.create({
         fontSize: 25
     },
     cont: {
+        padding:10,
         marginBottom: -30,
         paddingBottom: -20
     }
